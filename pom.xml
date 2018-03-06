@@ -164,5 +164,32 @@
 				<updatePolicy>daily</updatePolicy>
 			</snapshots>
 		</repository>
+		<repository>
+          <id>JBoss Release Repo</id>
+          <name>JBoss Fuse Repo</name>
+          <url>https://repository.jboss.org/nexus/content/</url>
+          <releases>
+            <enabled>true</enabled>
+            <updatePolicy>daily</updatePolicy>
+          </releases>
+          <snapshots>
+            <enabled>true</enabled>
+            <updatePolicy>daily</updatePolicy>
+          </snapshots>
+        </repository>
+		<repository>
+                    <id>redhat-techpreview-plugin-repository</id>
+                    <name>JBoss 6 Maven Plugin Repository</name>
+                    <url>https://maven.repository.redhat.com/nexus/content/repositories/product-earlyaccess/</url>
+                    <layout>default</layout>
+                    <releases>
+                        <enabled>true</enabled>
+                        <updatePolicy>never</updatePolicy>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                        <updatePolicy>never</updatePolicy>
+                    </snapshots>
+               </repository>
     </repositories>
 </project>
