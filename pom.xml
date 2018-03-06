@@ -11,7 +11,7 @@
   </modules>
   
   <properties>
-		<kbc-bpm6.version>0.0.1-SNAPSOT</kbc-bpm6.version>
+		<bpm6.version>0.0.1-SNAPSOT</bpm6.version>
 		<java.version>1.8</java.version>
 	
 		<!-- BPM Product Versions -->
